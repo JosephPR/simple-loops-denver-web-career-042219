@@ -3,7 +3,7 @@
 def loop_iterator(num)
   counter = 0 
  if counter < num 
-   puts "Welcome to Flatiron School's Web Development Course!"
+   return "Welcome to Flatiron School's Web Development Course!"
   
 end
   # Code your solution here using the "loop" keyword to puts out the below phrase
