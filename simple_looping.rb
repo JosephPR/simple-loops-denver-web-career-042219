@@ -1,11 +1,17 @@
 # REMEMBER: print your output to the terminal using 'puts'
 
 def loop_iterator(number_of_times)
-    # loop do 
-      
-    #     puts "Welcome to Flatiron School's Web Development Course!"
-
-    # end
+ loop do # Start our loop
+  # increment our counter by 1 and set it equal to the sum of its current value, plus 1. 
+  counter = counter + 1
+ 
+  # Do Something
+  puts "Iteration #{counter} of the loop"
+ 
+  if counter >= 10 # If our counter is 10 or more
+    break # Stop the loop
+  end
+end
 
 end
 
