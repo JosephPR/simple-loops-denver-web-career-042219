@@ -4,7 +4,7 @@ def loop_iterator(num)
   counter = 0 
  if counter < num 
    return "Welcome to Flatiron School's Web Development Course!"
-  
+  counter += 1 
 end
 
   
