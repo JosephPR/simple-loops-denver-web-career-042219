@@ -1,9 +1,8 @@
 # REMEMBER: print your output to the terminal using 'puts'
 
 def loop_iterator(number_of_times)
- loop do # Start our loop
-  # increment our counter by 1 and set it equal to the sum of its current value, plus 1. 
-  counter = counter + 1
+ loop do 
+  counter = 1
 
 puts "Welcome to Flatiron School's Web Development Course!"
   
