@@ -5,7 +5,8 @@ counter = 0
  loop do 
    counter = counter + 1
 puts "Welcome to Flatiron School's Web Development Course!"
-  
+    if counter >= number_of_times # If our counter is 10 or more
+    break # Stop the loop
   end
 end
 
