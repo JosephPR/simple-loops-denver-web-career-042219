@@ -1,6 +1,10 @@
 # REMEMBER: print your output to the terminal using 'puts'
 
 def loop_iterator(number_of_times)
+    loop do 
+        puts "Welcome to Flatiron School's Web Development Course!"
+   break if > number_of_times
+    end
 
 end
 
@@ -28,10 +32,6 @@ end
 end
 
 def for_iterator(number_of_times)
-  # code your solution here using the "for" keyword
-  # remember that `for` requires a range of numbers. How can we turn our number into a range?
-  
-  phrase = "Welcome to Flatiron School's Web Development Course!"
-  
+
 end
 
