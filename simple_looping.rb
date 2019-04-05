@@ -4,11 +4,10 @@ def loop_iterator(number_of_times)
  loop do # Start our loop
   # increment our counter by 1 and set it equal to the sum of its current value, plus 1. 
   counter = counter + 1
- 
-  # Do Something
-  puts "Iteration #{counter} of the loop"
- 
-  if counter >= 10 # If our counter is 10 or more
+
+puts "Welcome to Flatiron School's Web Development Course!"
+  
+  if counter >= number_of_times
     break # Stop the loop
   end
 end
