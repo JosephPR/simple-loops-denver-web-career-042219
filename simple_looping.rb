@@ -1,6 +1,7 @@
 # REMEMBER: print your output to the terminal using 'puts'
 
 def loop_iterator(num)
+  counter 
   loop do 
   
   
